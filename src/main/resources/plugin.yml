@@ -1,0 +1,21 @@
+name: Blocks
+main: me.epigraphs.ezblocks.EZBlocks
+version: ${project.version}
+api-version: '1.21'
+author: extended_clip
+description: Count players blocks broken
+softdepend: [PlaceholderAPI]
+permissions:
+    ezblocks.check:
+        description: access to check others blocks broken by command
+        default: op
+    ezblocks.pickaxecounter:
+        description: ability to have a pickaxe counter
+        default: op
+    ezblocks.admin:
+        description: access to admin commands
+        default: op
+commands:
+   ezblocks:
+     description: EZBlocks main command
+     aliases: [blocks]
